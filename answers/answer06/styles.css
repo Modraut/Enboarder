@@ -11,3 +11,65 @@
     border-radius: 50%;
     background-color: pink;
 }
+
+
+/* answer */
+
+div{
+    box-sizing: border-box;
+}
+
+/* center the button */
+.App{
+    text-align: center;
+}
+
+.top{
+    position: relative;
+    padding: 32px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.top-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.top-inner>div{
+    width: 49.5%;
+    display: inline-block;
+    border: 1px solid black;
+}
+.left-top, .right-bottom{
+    background-color: red;
+    color: white;
+}
+
+
+.top>div:last-child{
+    margin-top: 70px;
+}
+
+.circle{
+    position: absolute;
+    border: 1px solid black;
+    /* I'm not sure about the meaning of the position in the image so I just do a similar positioning */
+    top: 50%;
+    right: 50%
+}
+
+.bottom-big-container{
+    border: 1px solid black;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
